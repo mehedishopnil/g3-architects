@@ -1,0 +1,158 @@
+/* --------------
+Font Link
+---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+/* --------------
+Common style part
+---------------- */
+body {
+    margin: px 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    background: #FF900E;
+    margin-top: 16px;
+}
+
+/* --------------
+  Header Part
+---------------- */
+
+.header {
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 1250px;
+
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.logo {
+    color: #131313;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: -250px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 30px;
+    margin-right: -250px;
+
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.header-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header-banner h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    width: 40%;
+    margin: 10px;
+}
+
+.header-banner p {
+    font-weight: 400;
+    font-size: 16px;
+
+    width: 50%;
+}
+
+.header-banner a {}
+
+.header-banner img {
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+/* --------------
+Team style part
+---------------- */
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding: 100px 310px;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: right;
+    padding-right: 70px;
+
+}
+
+.team-members img {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+    padding: px;
+}
+
+.team-articles {
+    padding-top: 187px;
+}
+
+.team-articles h1 {
+    font-weight: 500;
+    font-size: 45px;
+    width: 468px;
+    margin: 24px 0px;
+}
+
+.team-articles p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 42px;
+}
+
+
+/* --------------
+Features style part
+---------------- */
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.features-content {
+    width: 586px;
+    height: 982px;
+    margin-left: 240px;
+}
+
+.feature-img img{
+    width: 708px;
+    height: 982px;
+}
