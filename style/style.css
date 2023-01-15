@@ -225,30 +225,30 @@ Features style part
     width: 542px;
     height: 52px;
     margin-bottom: 500px;
-    
+
 }
 
-.some-facts-tile{
+.some-facts-tile {
     padding-bottom: 50px;
 }
 
-.some-facts-tile h1{
+.some-facts-tile h1 {
     font-weight: 700;
-font-size: 45px;
+    font-size: 45px;
 }
 
-.fact-boxes{
+.fact-boxes {
     display: flex;
     gap: 120px;
 }
 
-.fact-boxes-content{
+.fact-boxes-content {
     padding: px 0px;
-border: 1px solid #FF900E;
-border-radius: 8px;
-width:800px;
-text-align: center;
-padding: 50px 25px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 800px;
+    text-align: center;
+    padding: 50px 25px;
 
 }
 
@@ -256,40 +256,98 @@ padding: 50px 25px;
 .fact-boxes-content:hover {
     padding: px 0px;
 
-background-color: #ff8f0e46;
-border-radius: 8px;
-width:800px;
-text-align: center;
-padding: 50px 25px;
+    background-color: #ff8f0e46;
+    border-radius: 8px;
+    width: 800px;
+    text-align: center;
+    padding: 50px 25px;
 
 
 }
-.fact-boxes-content img{
+
+.fact-boxes-content img {
     width: 45.22px;
-height: 45.22px;
-padding: 5px;
-margin: 0px;
+    height: 45.22px;
+    padding: 5px;
+    margin: 0px;
 }
 
-.fact-boxes-content h1{
+.fact-boxes-content h1 {
     font-weight: 600;
-font-size: 45px;
-width: 200px;
-height: 53px;
-text-align: center;
-padding: 5px;
-margin: 0px;
+    font-size: 45px;
+    width: 200px;
+    height: 53px;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
 }
 
-.fact-boxes-content p{
+.fact-boxes-content p {
     font-weight: 500;
-font-size: 20px;
-width: 200px;
-height: 23px;
-padding:5px;
-margin: 0px;
+    font-size: 20px;
+    width: 200px;
+    height: 23px;
+    padding: 5px;
+    margin: 0px;
 }
 
 /* --------------
   sponsors
   --------------- */
+
+.sponsor-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sponsor-title h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin: 0px;
+}
+
+.sponsor-title p {
+
+    width: 542px;
+    height: 52px;
+
+}
+
+.sponsor-images {
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* --------------
+  sponsors
+  --------------- */
+
+  .footer{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px 150px 0px;
+  }
+
+.copyright{
+    text-align: center;
+    width: 1440px;
+height: 100px;
+
+font-weight: 400;
+font-size: 20px !important;
+line-height: 23px;
+background: #FFF4E7;
+border-radius: 8px;
+}
+
+.copyright p{
+    margin-top: 35px;
+}
