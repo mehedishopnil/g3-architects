@@ -153,7 +153,7 @@ Features style part
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 200px;
-    margin:100px 50px 100px 150px ;
+    margin: 100px 50px 100px 150px;
 
 }
 
@@ -319,7 +319,59 @@ Features style part
 
 
 /* --------------
-  sponsors
+  Contact
+  --------------- */
+
+.contact{
+    text-align: center;
+    margin: 2   00px 0px;
+}
+
+.contact h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin: 0px;
+    text-decoration: none;
+    
+}
+.contact a{
+    text-decoration: none;
+    color: #131313;
+}
+
+.contact a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+.contact-info{
+display: flex;
+gap: 150px;
+flex-direction: row;
+justify-content: center;
+padding-top: 60px;
+}
+
+.contact-info img{
+    width: 52px;
+}
+.contact-box {
+    border: 1px solid #FF900E;
+    padding: 40px 80px;
+    border-radius: 8px;
+}
+
+.contact-box:hover {
+    border: 1px solid #FF900E;
+    padding: 40px 80px;
+    border-radius: 8px;
+    color: white;
+    background-color: #ff8f0e;
+}
+
+
+/* --------------
+  footer
   --------------- */
 
 .footer {
@@ -367,7 +419,7 @@ Features style part
         grid-template-columns: 1fr;
         align-items: center;
         width: 100%;
-        
+
     }
 
     .nav-menu {
@@ -384,7 +436,7 @@ Features style part
         font-size: 30px;
         text-align: center;
         padding-left: 250px;
-        
+
 
     }
 
@@ -394,7 +446,7 @@ Features style part
         line-height: 55px;
         width: 60%;
         margin: px;
-        
+
     }
 
     .header-banner img {
@@ -402,7 +454,7 @@ Features style part
         height: 100%;
         border-radius: 8px;
         margin-top: 47px;
-        
+
     }
 
     /* Team section */
@@ -430,12 +482,12 @@ Features style part
 
     .team-articles {
         padding: 187px 20px 100px 10px;
-        
+
         height: 100%;
         text-align: center;
     }
 
-    .team-articles h1{
+    .team-articles h1 {
         text-align: center;
         padding-left: 100px;
     }
@@ -469,7 +521,7 @@ Features style part
         padding-top: 100px;
     }
 
-    .feature-card{
+    .feature-card {
         width: 300px;
         padding: 5px 5px;
 
@@ -489,7 +541,7 @@ Features style part
         z-index: 5;
     }
 
-    .features-content-header{
+    .features-content-header {
         width: 450px;
     }
 
@@ -502,27 +554,29 @@ Features style part
     }
 
     .features-content-header p {
-        width: 350px;     
+        width: 350px;
     }
-/* Facts */
 
-.some-facts-tile {
-    padding: 0px 0px 50px 20px;
-}
-.fact-boxes {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 60px;
-    justify-content: center;
-    padding: 0px 10px;
-}
+    /* Facts */
 
-/* Sponsors */
-.sponsor-images {
-    margin: 50px 50px;
-    display: grid;
-    grid-row-gap: 50px;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-around;
-}
+    .some-facts-tile {
+        padding: 0px 0px 50px 20px;
+    }
+
+    .fact-boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+        justify-content: center;
+        padding: 0px 10px;
+    }
+
+    /* Sponsors */
+    .sponsor-images {
+        margin: 50px 50px;
+        display: grid;
+        grid-row-gap: 50px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-around;
+    }
 }
