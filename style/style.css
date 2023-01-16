@@ -406,7 +406,7 @@ padding-top: 60px;
   Mobile Responsive part
   ---------------------- */
 
-@media screen and (max-width: 688px) {
+@media screen and (max-width: 576px) {
     .body-space {
         margin: 50px 5px 0px 5px;
 
@@ -495,7 +495,7 @@ padding-top: 60px;
 
     .team-articles h1 {
         text-align: center;
-        padding-left: 100px;
+        /* padding-left: 100px; */
     }
 
     /* Features Section */
@@ -504,8 +504,8 @@ padding-top: 60px;
         display: grid;
         grid-template-columns: 1fr;
         margin-bottom: 14px;
-        width: 542px;
-        height: 2030px;
+        width: 100%;
+        height: 2067px;
         align-items: center;
         justify-content: center;
         align-content: center;
@@ -571,7 +571,7 @@ padding-top: 60px;
 
     .fact-boxes {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 60px;
         justify-content: center;
         padding: 0px 10px;
@@ -581,6 +581,7 @@ padding-top: 60px;
     .sponsor-images {
         margin: 50px 50px;
         display: grid;
+        gap: 25px;
         grid-row-gap: 50px;
         grid-template-columns: repeat(2, 1fr);
         justify-content: space-around;
