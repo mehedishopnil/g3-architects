@@ -7,8 +7,7 @@ Font Link
 Common style part
 ---------------- */
 body {
-    margin: px 0px;
-    padding: 0px;
+
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -30,6 +29,11 @@ p {
     color: #727272;
 }
 
+.body-space {
+    margin: 50px 200px 0px 100px;
+
+}
+
 /* --------------
   Header Part
 ---------------- */
@@ -38,7 +42,6 @@ p {
     background: rgba(255, 144, 14, 0.1);
     width: 100%;
     height: 1250px;
-
 }
 
 .main-header {
@@ -90,11 +93,9 @@ p {
     width: 50%;
 }
 
-.header-banner a {}
-
 .header-banner img {
-    width: 1440px;
-    height: 700px;
+    width: 1300px;
+    height: 660px;
     border-radius: 8px;
     margin-top: 50px;
 }
@@ -113,9 +114,9 @@ Team style part
 .team-members {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
     justify-content: right;
     padding-right: 70px;
-
 }
 
 .team-members img {
@@ -156,9 +157,8 @@ Features style part
 }
 
 .features-content {
-    width: 586px;
+    width: 50%;
     height: 982px;
-    margin-left: 240px;
     z-index: 2;
 }
 
@@ -172,10 +172,10 @@ Features style part
 
 .feature-card {
     width: 550px;
-    height: 171px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-    padding: 25px;
+    padding: 5px 0px 5px 10px;
     border-radius: 8px;
+    margin: 10px 20px;
 
 }
 
@@ -188,21 +188,20 @@ Features style part
 .feature-img img {
     width: 708px;
     height: 982px;
-    margin-left: 50px;
     z-index: 1;
 }
 
 .feature-btn {
+    position: absolute;
     background-color: #FF900E;
     width: 210px;
     height: 100px;
-
     font-weight: 700;
     font-size: 45px;
     padding: 30px 20px 30px 30px;
     border-radius: 8px;
     text-align: center;
-    margin: -300px 0px 0px 600px;
+    margin: -170px 0px 0px 600px;
     z-index: 5;
 }
 
@@ -214,22 +213,19 @@ Features style part
 .exp-btn {
     font-weight: 300;
     font-size: 25px;
-
 }
 
 /* --------------
   some facts
   --------------- */
-.some-facts {
-    padding: 240px 240px;
-    width: 542px;
-    height: 52px;
-    margin-bottom: 500px;
 
+.some-facts {
+    width: 100%;
+    margin: 300px 0px 200px 0px ;
 }
 
 .some-facts-tile {
-    padding-bottom: 50px;
+    padding: 0px 0px 50px 150px;
 }
 
 .some-facts-tile h1 {
@@ -239,16 +235,17 @@ Features style part
 
 .fact-boxes {
     display: flex;
-    gap: 120px;
+    gap: 60px;
+    justify-content: center;
 }
 
 .fact-boxes-content {
     padding: px 0px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    width: 800px;
+    width: 250px;
     text-align: center;
-    padding: 50px 25px;
+    padding: 30px 0px;
 
 }
 
@@ -258,9 +255,8 @@ Features style part
 
     background-color: #ff8f0e46;
     border-radius: 8px;
-    width: 800px;
     text-align: center;
-    padding: 50px 25px;
+    padding: 30px 0px;
 
 
 }
@@ -275,8 +271,6 @@ Features style part
 .fact-boxes-content h1 {
     font-weight: 600;
     font-size: 45px;
-    width: 200px;
-    height: 53px;
     text-align: center;
     padding: 5px;
     margin: 0px;
@@ -285,8 +279,6 @@ Features style part
 .fact-boxes-content p {
     font-weight: 500;
     font-size: 20px;
-    width: 200px;
-    height: 23px;
     padding: 5px;
     margin: 0px;
 }
@@ -328,26 +320,26 @@ Features style part
   sponsors
   --------------- */
 
-  .footer{
+.footer {
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
     margin: 100px 0px 150px 0px;
-  }
-
-.copyright{
-    text-align: center;
-    width: 1440px;
-height: 100px;
-
-font-weight: 400;
-font-size: 20px !important;
-line-height: 23px;
-background: #FFF4E7;
-border-radius: 8px;
 }
 
-.copyright p{
+.copyright {
+    text-align: center;
+    width: 1050px;
+    height: 100px;
+
+    font-weight: 400;
+    font-size: 20px !important;
+    line-height: 23px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+.copyright p {
     margin-top: 35px;
 }
