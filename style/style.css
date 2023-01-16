@@ -221,7 +221,7 @@ Features style part
 
 .some-facts {
     width: 100%;
-    margin: 300px 0px 200px 0px ;
+    margin: 300px 0px 200px 0px;
 }
 
 .some-facts-tile {
@@ -344,7 +344,7 @@ Features style part
     margin-top: 35px;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
@@ -352,21 +352,23 @@ Features style part
   Mobile Responsive part
   ---------------------- */
 
-  @media screen and (max-width: 688px) {
+@media screen and (max-width: 688px) {
     .body-space {
-        margin: 50px 10px 0px 10px;
-    
+        margin: 50px 5px 0px 5px;
+
     }
-    
+
     /* Header Part */
 
-    .main-header{
+    .main-header {
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
+        width: 100%;
+        
     }
 
-    .nav-menu{
+    .nav-menu {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -380,14 +382,8 @@ Features style part
         font-size: 30px;
         text-align: center;
         padding-left: 250px;
-       
-    }
+        
 
-    .header-banner img {
-        width: 1007px;
-        height: 485px;
-        border-radius: 8px;
-        margin-top: 50px;
     }
 
     .header-banner h1 {
@@ -395,7 +391,8 @@ Features style part
         font-size: 46px;
         line-height: 55px;
         width: 60%;
-        margin: 57px;
+        margin: px;
+        
     }
 
     .header-banner img {
@@ -403,14 +400,41 @@ Features style part
         height: 100%;
         border-radius: 8px;
         margin-top: 47px;
+        
     }
 
     /* Team section */
 
+
     .team {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        /* width: 100%; */
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+
     }
-  }
+
+    .team-members {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .team-articles {
+        padding: 187px 20px 100px 10px;
+        
+        height: 100%;
+        text-align: center;
+    }
+
+    .team-articles h1{
+        text-align: center;
+        padding-left: 100px;
+    }
+}
