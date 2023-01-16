@@ -153,12 +153,14 @@ Features style part
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 200px;
+    margin:100px 50px 100px 150px ;
 
 }
 
 .features-content {
-    width: 50%;
+    width: 600px;
     height: 982px;
+    margin: 0px 0px 0px 241px;
     z-index: 2;
 }
 
@@ -175,7 +177,7 @@ Features style part
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     padding: 5px 0px 5px 10px;
     border-radius: 8px;
-    margin: 10px 20px;
+    margin: 20px 20px;
 
 }
 
@@ -225,7 +227,7 @@ Features style part
 }
 
 .some-facts-tile {
-    padding: 0px 0px 50px 150px;
+    padding: 0px 0px 50px 335px;
 }
 
 .some-facts-tile h1 {
@@ -369,7 +371,7 @@ Features style part
     }
 
     .nav-menu {
-        display: flex;
+        display: none;
         align-items: center;
         flex-direction: column;
         width: 100%;
@@ -437,4 +439,90 @@ Features style part
         text-align: center;
         padding-left: 100px;
     }
+
+    /* Features Section */
+
+    .features {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 14px;
+        width: 542px;
+        height: 2030px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        /* margin: 0px; */
+        justify-items: center;
+        padding: 0px;
+    }
+
+    .features-content {
+        width: 550px;
+        height: 100%;
+        z-index: 2;
+        padding-bottom: 100px;
+    }
+
+    .feature-img img {
+        width: 550px;
+        height: 650px;
+        padding-top: 100px;
+    }
+
+    .feature-card{
+        width: 300px;
+        padding: 5px 5px;
+
+    }
+
+    .feature-btn {
+        position: absolute;
+        background-color: #FF900E;
+        width: 210px;
+        height: 100px;
+        font-weight: 700;
+        font-size: 45px;
+        padding: 20px 30px 20px 20px;
+        border-radius: 8px;
+        text-align: center;
+        margin: 50px;
+        z-index: 5;
+    }
+
+    .features-content-header{
+        width: 450px;
+    }
+
+    .features-content-header h1 {
+        font-weight: 700;
+        font-size: 33px;
+        width: 350px;
+        border-left: 5px solid #FF900E;
+        padding-left: 20px;
+    }
+
+    .features-content-header p {
+        width: 350px;     
+    }
+/* Facts */
+
+.some-facts-tile {
+    padding: 0px 0px 50px 20px;
+}
+.fact-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+/* Sponsors */
+.sponsor-images {
+    margin: 50px 50px;
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+}
 }
