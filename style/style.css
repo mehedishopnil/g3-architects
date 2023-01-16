@@ -324,7 +324,7 @@ Features style part
 
 .contact{
     text-align: center;
-    margin: 2   00px 0px;
+    margin: 200px 0px;
 }
 
 .contact h1{
@@ -578,5 +578,32 @@ padding-top: 60px;
         grid-row-gap: 50px;
         grid-template-columns: repeat(2, 1fr);
         justify-content: space-around;
+    }
+
+
+    /* Contact Us */
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+    }
+    .contact-box {
+        border: 1px solid #FF900E;
+        padding: 41px 15px;
+        border-radius: 8px;
+        width: 195px;
+    }
+
+    .contact h1{
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 53px;
+        margin: 0px;
+        text-decoration: none;
+        
     }
 }
